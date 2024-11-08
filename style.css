@@ -1,0 +1,80 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    padding:o;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+    color:black
+}
+
+form{
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0cap;
+    padding: 20px;
+    margin: auto;
+}
+
+fieldset{
+    font-size: x-large;
+    border: 1;
+    border-radius: 8px;
+    border-color: black;
+    background-color:rgb(220, 244, 247);
+    box-shadow:0 0 15px aquamarine;
+      
+}
+
+legend{
+    font-weight:bolder;
+    text-align:left;
+    color:black;
+    
+
+}
+
+label{
+    display:block;
+    margin-top: 10cap;
+    color: black;
+    text-align: left;
+}
+input,textarea{
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 4px;
+    padding: 20px;
+    width:calc(100% - 1px);
+}
+
+button{
+    background-color: rgb(220, 245, 230);
+    display: block;
+    padding: 20px;
+    ;
+    
+
+}
+
+button:hover{
+    background-color: rgb(192, 236, 255);
+}
+#resume-display{
+    max-width: 600px;
+    margin:auto;
+    padding:20px;
+    border: 2px;
+    border-radius: 8px;
+    background-color: rgb(192, 240, 255);
+    /*resume ediatble*/
+    outline:none;
+    box-shadow: 0 0 15px aquamarine;
+
+}
+#resume-form{
+    color: black;
+}
